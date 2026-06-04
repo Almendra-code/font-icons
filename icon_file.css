@@ -1,14 +1,12 @@
-@charset "UTF-8"; @font-face {
-      font-family: 'cappuccicons';
-      src: url('cappuccicons.eot');
-	  src: url('cappuccicons.eot?#iefix') format('embedded-opentype'),
-		   url('cappuccicons.ttf') format('truetype'),
-           url('cappuccicons.woff') format('woff'),
-           url('cappuccicons.svg#cappuccicons') format('svg');
-      font-weight: normal;
-      font-style: normal;
-      font-display: block;
-    }
+	@font-face {
+		font-family: 'cappuccicons';
+		src: url('cappuccicons.eot');
+		src: url('cappuccicons.eot?#iefix') format('embedded-opentype'),
+			 url('cappuccicons.ttf') format('truetype'),
+			 url('cappuccicons.woff') format('woff'),
+			 url('cappuccicons.svg#cappuccicons') format('svg');
+		/* ... */
+	}
 
     i.cp,span.cp {
       font-family: 'cappuccicons'!important;
